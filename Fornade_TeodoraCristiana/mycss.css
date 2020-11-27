@@ -1,0 +1,115 @@
+     h1 {
+	     background-color: #222a35;
+		 text-align: center;
+		 color: #8b9298;
+		 border: 7px solid black;
+         margin: 10px;
+		 text-decoration: underline;
+         font-style: italic;
+	  }
+	 
+	  .e-mail
+	  {
+	  color:#ffda6c;
+	  text-align:right;
+	  text-decoration:underline;
+	  }
+	  
+	  h2
+	  {
+	   color:#7c4aac;
+	   text-decoration: underline;
+	   font-weight: bold;
+	    text-indent: 20px;
+	  }
+	  
+	  .structura
+	  {
+	  background-color:#d6dce5;
+	  border: 2px solid #7c4aac;
+	  margin:5px;
+	  }
+	  
+	img{
+		  display: block;
+        margin-left: auto;
+        margin-right: auto;
+	}
+	  
+	  ul{
+	  list-style-position:inside;
+	  text-align: right;
+	  padding: 10px;
+	  }
+	  
+	  table, th, td
+	  {
+	  border: 3px solid #ed7d31;
+	  font-size: 100%;
+	  color: #f5e763;
+	  text-align: center;
+	  text-decoration: underline;
+	  font-weight: bold;
+	  font-style: italic;
+	  background: #a5a3a2;
+	  margin: auto;
+	  width="100%";
+	  cellspacing="0";
+	  cellpadding="0";
+	  border-collapse: collapse;
+	  }
+
+.slideshow-container {
+  max-width: 700px;
+   position: relative;
+    margin: auto; 
+    margin-top:0px;
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
